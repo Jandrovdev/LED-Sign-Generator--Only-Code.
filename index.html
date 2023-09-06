@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <title>LED Sign Generator</title>
+</head>
+<body>
+    <div class="led-sign">
+        <span class="led-text">Hot Dogs</span>
+        <span class="sub-text">Only $8.99</span>
+        <div class="icons">
+            <i class="fas fa-hotdog icon"></i> <!-- visible icon -->
+            <!-- Hidden icons -->
+            <i class="fas fa-pizza-slice icon" style="display: none;"></i>
+            <i class="fas fa-ice-cream icon" style="display: none;"></i>
+            <i class="fas fa-hamburger icon" style="display: none;"></i>
+            <i class="fas fa-coffee icon" style="display: none;"></i>
+            <i class="fas fa-beer icon" style="display: none;"></i>
+            <i class="fas fa-cocktail icon" style="display: none;"></i>
+            <!-- more -->
+        </div>
+        <button id="download-btn">Download as Image</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
