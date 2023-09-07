@@ -7,4 +7,4 @@ Create a variety of LED sign designs with this generator, built with HTML, CSS, 
 1. Clone this repository:
 
    ```shell
-   git clone https://github.com/Janovdev/LED-Sign-Generator--Only-Code.git
+   git clone https://github.com/Jandrodev/LED-Sign-Generator--Only-Code.git
